@@ -20,7 +20,7 @@ pigeon_data = {
 
 def nyc_pigeon_organizer(data)
  data.each do |k,v|
-    puts v 
+    puts "#{k}:#{v}"
   end  
 end
 binding.pry 
