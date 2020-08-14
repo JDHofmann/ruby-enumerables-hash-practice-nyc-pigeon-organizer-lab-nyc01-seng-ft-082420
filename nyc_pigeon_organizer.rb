@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
     v.each do |k_2, v_2|
       
       v_2.map do |i|
-        if !final_array[name]
+        if !final_array[i]
           final_array[i] = {}
           binding.pry
         end
