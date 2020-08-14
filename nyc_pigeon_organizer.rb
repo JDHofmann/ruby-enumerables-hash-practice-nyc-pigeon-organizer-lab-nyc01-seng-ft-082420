@@ -32,7 +32,7 @@ def nyc_pigeon_organizer(data)
           final_array[i][k]=[]
         end 
         
-          final_array[i][k]=[k_2]
+          final_array[i][k].push(k_2)
          binding.pry
 
         end 
