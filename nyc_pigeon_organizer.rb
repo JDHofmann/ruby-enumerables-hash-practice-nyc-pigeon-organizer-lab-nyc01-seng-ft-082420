@@ -31,10 +31,10 @@ def nyc_pigeon_organizer(data)
     #end of v.each   
     end 
     
-  puts "pigeon_data:#{pigeon_data}"
+  
   
   #end of data.each  
   end 
-  
+  puts "pigeon_data:#{pigeon_data}"
 end
 binding.pry 
