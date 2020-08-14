@@ -28,7 +28,7 @@ def nyc_pigeon_organizer(data)
         # add each to pigeon_data hash as a key 
         # 
         #test[i] = s1.power
-        pigeon_data[i] = "test for #{v_2}"
+        pigeon_data[i] = "#{k}"
       end
       
     #end of v.each   
