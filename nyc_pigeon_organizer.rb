@@ -27,9 +27,12 @@ def nyc_pigeon_organizer(data)
       v_2.map do |i|
         if !final_array[i]
           final_array[i] = {}
-          binding.pry
         end
-        if !final_array[i][]
+        if !final_array[i][k]
+          final_array[i][k]=[]
+                    binding.pry
+
+        end 
       end
       
       
