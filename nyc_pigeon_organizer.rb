@@ -27,7 +27,8 @@ def nyc_pigeon_organizer(data)
       v_2.map do |i|
         # add each to pigeon_data hash as a key 
         # 
-        pigeon_data[i => "poop"]
+        #test[i] = s1.power
+        pigeon_data[i] = "test for #{i}"
       end
       
     #end of v.each   
