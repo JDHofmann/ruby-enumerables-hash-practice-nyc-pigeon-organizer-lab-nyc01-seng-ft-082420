@@ -30,7 +30,10 @@ def nyc_pigeon_organizer(data)
         end
         if !final_array[i][k]
           final_array[i][k]=[]
-                    binding.pry
+        end 
+        if !final_array[i][k][k_2]
+          final_array[i][k]=[k_2]
+         binding.pry
 
         end 
       end
