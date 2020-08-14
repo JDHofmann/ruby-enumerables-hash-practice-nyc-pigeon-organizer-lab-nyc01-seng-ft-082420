@@ -27,7 +27,7 @@ def nyc_pigeon_organizer(data)
       v_2.each do |i|
         pigeon_data << i  
       end
-      puts pigeon_data
+      puts "pigeon_data:"pigeon_data
     #end of v.each   
     end 
     
