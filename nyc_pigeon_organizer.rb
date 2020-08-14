@@ -17,11 +17,12 @@ pigeon_data = {
     "City Hall" => ["Andrew"]
   }
 }
-pigeon_list = {}
 def nyc_pigeon_organizer(data)
+  pigeon_list = {}
+
  data.each do |k,v|
     v.each do |k_2, v_2|
-      pigeon_list.push(v_2)
+      pigeon_list << v_2
     end 
   end  
 end
