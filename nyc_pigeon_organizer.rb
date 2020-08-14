@@ -18,14 +18,14 @@ pigeon_data = {
   }
 }
 def nyc_pigeon_organizer(data)
-  pigeon_data = []
+  pigeon_data = {}
 
   data.each do |k,v|
     
     v.each do |k_2, v_2|
       
       v_2.each do |i|
-        pigeon_data << i  
+        pigeon_data << :i => v_2  
       end
       
     #end of v.each   
