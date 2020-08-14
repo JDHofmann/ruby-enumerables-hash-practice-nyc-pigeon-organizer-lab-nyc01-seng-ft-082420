@@ -27,6 +27,7 @@ def nyc_pigeon_organizer(data)
       v_2.map do |i|
         if !final_array[name]
           final_array[i] = {}
+          binding.pry
         end
       end
       
