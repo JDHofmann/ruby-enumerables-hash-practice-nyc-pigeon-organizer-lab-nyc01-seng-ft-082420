@@ -27,7 +27,7 @@ def nyc_pigeon_organizer(data)
         if !final_array[i][k]
           final_array[i][k]=[]
         end 
-          final_array[i][k].push(k_2)
+          final_array[i][k].push(k_2.to_s)
       end
       
       
