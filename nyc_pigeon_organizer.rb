@@ -18,12 +18,8 @@ pigeon_data = {
   }
 }
 def nyc_pigeon_organizer(data)
-  pigeon_data = {}
-
   data.each_with_object({}) do |(k,v), final_array|
-    
     v.each do |k_2, v_2|
-      
       v_2.map do |i|
         if !final_array[i]
           final_array[i] = {}
@@ -31,11 +27,7 @@ def nyc_pigeon_organizer(data)
         if !final_array[i][k]
           final_array[i][k]=[]
         end 
-        
           final_array[i][k].push(k_2)
-         binding.pry
-
-        end 
       end
       
       
