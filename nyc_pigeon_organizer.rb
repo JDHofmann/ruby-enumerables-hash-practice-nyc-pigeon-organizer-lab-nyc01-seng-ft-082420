@@ -41,6 +41,6 @@ def nyc_pigeon_organizer(data)
   #end of data.each  
   end 
   # puts "pigeon_data:#{pigeon_data}"
-  puts pigeon_data[:color][:purple][2]
+  puts pigeon_data[:color][2]
 end
 binding.pry 
