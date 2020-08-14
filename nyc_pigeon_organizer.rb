@@ -26,7 +26,8 @@ def nyc_pigeon_organizer(data)
       
       v_2.map do |i|
         # add each to pigeon_data hash as a key 
-        pigeon_data[i] = "#{k}"
+        # pigeon_data[i] = "#{k}"
+        puts k_2 = i 
       end
       
       
