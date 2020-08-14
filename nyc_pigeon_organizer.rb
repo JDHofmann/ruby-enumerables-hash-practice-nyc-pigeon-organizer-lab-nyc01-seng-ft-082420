@@ -17,12 +17,10 @@ pigeon_data = {
     "City Hall" => ["Andrew"]
   }
 }
-def test_pry
-  puts "testing this"
-end
+
 def nyc_pigeon_organizer(data)
  pigeon_data.each do |k,v|
-    puts "#{k}:#{v}"
+    puts k
   end  
 end
 binding.pry 
