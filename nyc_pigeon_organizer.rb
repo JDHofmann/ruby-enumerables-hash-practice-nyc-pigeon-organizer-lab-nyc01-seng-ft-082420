@@ -18,14 +18,21 @@ pigeon_data = {
   }
 }
 def nyc_pigeon_organizer(data)
-  pigeon_list = []
+  pigeon_data = []
 
- data.each do |k,v|
+  data.each do |k,v|
+    
     v.each do |k_2, v_2|
+      
       v_2.each do |i|
-        puts i 
-      end 
+        pigeon_data << i  
+      end
+      puts pigeon_data
+    #end of v.each   
     end 
-  end  
+    
+  #end of data.each  
+  end 
+  
 end
 binding.pry 
