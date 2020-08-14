@@ -24,6 +24,8 @@ def nyc_pigeon_organizer(data)
     v.each do |k_2, v_2|
       pigeon_list << v_2
     end 
+    pigeon_list
+
   end  
   pigeon_list
 end
