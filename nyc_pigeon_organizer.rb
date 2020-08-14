@@ -19,7 +19,7 @@ pigeon_data = {
 }
 
 def nyc_pigeon_organizer(data)
- pigeon_data.each do |k,v|
+ data.each do |k,v|
     puts k
   end  
 end
