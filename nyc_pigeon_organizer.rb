@@ -25,9 +25,9 @@ def nyc_pigeon_organizer(data)
     v.each do |k_2, v_2|
       
       v_2.map do |i|
-        
+        if !final_array[name]
           final_array[i] = {}
-
+        end
       end
       
       
