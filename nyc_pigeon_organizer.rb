@@ -25,6 +25,8 @@ def nyc_pigeon_organizer(data)
     v.each do |k_2, v_2|
       
       v_2.map do |i|
+        # add each to pigeon_data hash as a key 
+        # 
         pigeon_data[i => "poop"]
       end
       
