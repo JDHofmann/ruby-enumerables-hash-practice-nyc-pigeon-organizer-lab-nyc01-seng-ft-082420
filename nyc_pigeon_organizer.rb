@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
 
  data.each do |k,v|
     v.each do |k_2, v_2|
-      pigeon_list << v_2
+      pigeon_list << v_2,k 
     end 
   end  
 end
