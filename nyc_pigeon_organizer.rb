@@ -28,7 +28,9 @@ def nyc_pigeon_organizer(data)
         # add each to pigeon_data hash as a key 
         # pigeon_data[i] = "#{k}"
         #puts "#{k}:#{k_2}:#{i}" 
-        pigeon_data[k_2] = "#{i}"
+        # pigeon_data[k_2] = "#{i}"
+          pigeon_data[i] = "#{k_2}"
+
       end
       
       
