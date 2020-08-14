@@ -17,10 +17,9 @@ pigeon_data = {
     "City Hall" => ["Andrew"]
   }
 }
-pigeon_data.each do |k,v|
+test1 = pigeon_data.each do |k,v|
     puts "#{k}:#{v}"
   end 
-
 def nyc_pigeon_organizer(data)
   
   
