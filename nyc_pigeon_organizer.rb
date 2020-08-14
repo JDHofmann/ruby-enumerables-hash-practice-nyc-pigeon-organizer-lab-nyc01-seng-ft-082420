@@ -20,6 +20,10 @@ pigeon_data = {
 
 
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  
+  pigeon_data.each do |k,v|
+    puts "#{k}:#{v}""
+  end 
+  
 end
 binding.pry 
