@@ -30,7 +30,7 @@ def nyc_pigeon_organizer(data)
         #puts "#{k}:#{k_2}:#{i}" 
         # pigeon_data[k_2] = "#{i}"
           pigeon_data[i] = "#{k}"
-          pigeon_data[i][k] = "#{k_2}"
+          pigeon_data[i]["#{k}"] = "#{k_2}"
 
       end
       
