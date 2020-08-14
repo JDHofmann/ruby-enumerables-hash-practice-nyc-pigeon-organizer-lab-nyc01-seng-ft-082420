@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
         # pigeon_data[i] = "#{k}"
         #puts "#{k}:#{k_2}:#{i}" 
         # pigeon_data[k_2] = "#{i}"
-          # pigeon_data[i] = "#{k}"
+          pigeon_data[i] = "#{k}"
           # pigeon_data[i,{"#{k}"}] = "#{k_2}"
 
       end
@@ -40,7 +40,7 @@ def nyc_pigeon_organizer(data)
     
   #end of data.each  
   end 
-  # puts "pigeon_data:#{pigeon_data}"
-  puts pigeon_data[:color]
+  puts "pigeon_data:#{pigeon_data}"
+  # puts pigeon_data[:color]
 end
 binding.pry 
