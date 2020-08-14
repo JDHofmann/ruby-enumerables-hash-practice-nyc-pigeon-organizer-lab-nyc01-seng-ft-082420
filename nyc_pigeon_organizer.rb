@@ -20,18 +20,13 @@ pigeon_data = {
 def nyc_pigeon_organizer(data)
   pigeon_data = {}
 
-  data.each_with_object({}) do |(k,v), a|
+  data.each_with_object({}) do |(k,v), final_array|
     
     v.each do |k_2, v_2|
       
       v_2.map do |i|
         
-        # add each to pigeon_data hash as a key 
-        # pigeon_data[i] = "#{k}"
-        #puts "#{k}:#{k_2}:#{i}" 
-        # pigeon_data[k_2] = "#{i}"
-        
-          pigeon_data[i] = "#{k}"
+          final_array[i] = {}
 
       end
       
