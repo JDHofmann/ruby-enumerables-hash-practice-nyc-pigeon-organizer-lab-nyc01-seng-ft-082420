@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
     v.each do |k_2, v_2|
       
       v_2.map do |i|
-        pigeon_data 
+        pigeon_data[i => v_2]
       end
       
     #end of v.each   
